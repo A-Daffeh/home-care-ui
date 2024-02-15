@@ -1,0 +1,18 @@
+.navActive {
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+
+.sliderHeight {
+    height: 500px;
+}
+
+.sliderImage {
+    height: 100%;
+}
+
+.footerCopyright {
+    background-color: rgba(0, 0, 0, 0.05);
+}

@@ -1,4 +1,7 @@
 import WebSlider from './WebSlider'
+import airfreight from '../../images/airfreight.jpg'
+import packageGuy from '../../images/packageGuy.jpg'
+import deliveryguywithcustomer from '../../images/deliveryguywithcustomer.jpg'
 
 const Home = () => {
     return (
@@ -22,7 +25,7 @@ const Home = () => {
                 <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
                     <div className="col">
                         <div className="card h-100">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" className="card-img-top" alt="Hollywood Sign on The Hill"/>
+                        <img src={airfreight} className="card-img-top" alt="Hollywood Sign on The Hill"/>
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">
@@ -34,7 +37,7 @@ const Home = () => {
                     </div>
                     <div className="col">
                         <div className="card h-100">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" className="card-img-top" alt="Palm Springs Road"/>
+                        <img src={packageGuy} className="card-img-top" alt="Palm Springs Road"/>
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">This is a short card.</p>
@@ -43,7 +46,7 @@ const Home = () => {
                     </div>
                     <div className="col">
                         <div className="card h-100">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" className="card-img-top" alt="Los Angeles Skyscrapers"/>
+                        <img src={deliveryguywithcustomer} className="card-img-top" alt="Los Angeles Skyscrapers"/>
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>

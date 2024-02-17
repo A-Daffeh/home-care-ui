@@ -7,6 +7,7 @@ import Navbar from './assets/components/shared/Navbar'
 import Login from './assets/components/Login'
 import Admin from './assets/components/admin/Admin'
 import Locations from './assets/components/Locations'
+import Contact from './assets/components/Contact'
 
 function App() {
 
@@ -17,8 +18,10 @@ function App() {
           <Route path='/' element={ <Home /> } />
           <Route path='/about' element={ <About /> } />
           <Route path='/locations' element={ <Locations /> } />
+          <Route path='/contact' element={ <Contact/> } />
           <Route path='/login' element={ <Login /> } />
           <Route path='/admin' element={ <Admin /> } />
+          
         </Routes>
       <Footer />
     </>

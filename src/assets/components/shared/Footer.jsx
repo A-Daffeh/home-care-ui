@@ -70,8 +70,8 @@ const Footer = () => {
                 </div>
             </section>
             <div className="text-center p-4 footerCopyright">
-                © 2021 Copyright:
-                <a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                &copy; 2024 Copyright:
+                <a className="text-reset fw-bold" href="#">Pro Shipping</a>
             </div>
         </footer>
     )

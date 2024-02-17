@@ -11,6 +11,14 @@ function Contact() {
     const handleSubmit = async (event) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
+
+        const contact = {
+          "email": data.get('email'),
+          "password": data.get('password'),
+          "fullName": data.get('fullName'),
+          "phone": data.get('phone'),
+          "message": data.get('message'),
+        }
         
         console.log({
           email: data.get('email'),
@@ -32,8 +40,6 @@ function Contact() {
             alignItems: 'center',
           }}
         >
-            <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-            </Avatar>
             <Typography component="h1" variant="h5">
               We are ready to hear from you!
             </Typography>

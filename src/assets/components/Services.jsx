@@ -1,5 +1,5 @@
 
-const Locations = () => {
+const Services = () => {
     return (
         <div className="container">
             <div className="card my-4">
@@ -73,4 +73,4 @@ const Locations = () => {
     )
 }
 
-export default Locations
+export default Services

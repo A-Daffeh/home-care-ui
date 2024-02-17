@@ -6,7 +6,7 @@ import Footer from './assets/components/shared/Footer'
 import Navbar from './assets/components/shared/Navbar'
 import Login from './assets/components/Login'
 import Admin from './assets/components/admin/Admin'
-import Locations from './assets/components/Locations'
+import Services from './assets/components/Services'
 import Contact from './assets/components/Contact'
 
 function App() {
@@ -17,11 +17,10 @@ function App() {
         <Routes>
           <Route path='/' element={ <Home /> } />
           <Route path='/about' element={ <About /> } />
-          <Route path='/locations' element={ <Locations /> } />
+          <Route path='/services' element={ <Services /> } />
           <Route path='/contact' element={ <Contact/> } />
           <Route path='/login' element={ <Login /> } />
           <Route path='/admin' element={ <Admin /> } />
-          
         </Routes>
       <Footer />
     </>

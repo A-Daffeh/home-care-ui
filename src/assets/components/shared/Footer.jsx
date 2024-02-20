@@ -8,6 +8,7 @@ const Footer = () => {
                 <span>Get connected with us on social networks:</span>
                 </div>
                 <div>
+               
                 <a href="" className="me-4 text-reset">
                     <i className="fab fa-facebook-f"></i>
                 </a>
@@ -33,12 +34,9 @@ const Footer = () => {
                     <div className="row mt-3">
                         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">
-                                <i className="fas fa-gem me-3"></i>Company name
+                                <i className="fas fa-gem me-3"></i>Pro Shipping
                             </h6>
-                            <p>
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                dolor sit amet, consectetur adipisicing elit.
-                            </p>
+                           
                         </div>
                         <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">
@@ -77,4 +75,9 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default F
+
+// <!- go to react icons and replace these icons with whats there 
+// when you click on the pro shipping text at the bottom it should take u to the home page 
+// replace the contact in the footer with the laravel about us our locations contact info (the address)
+// on the useful links at the bottom. link it to the same name as the nav bar so that when u click on each link it takes u to the correct page

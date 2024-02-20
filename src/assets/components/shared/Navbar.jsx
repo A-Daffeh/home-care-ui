@@ -11,7 +11,7 @@ const Navbar = () => {
         
     };
     const navbarStyle = { backgroundColor: '#e3f2fd' };
-    const navItems = ['Home', 'About', 'Services', 'Contact'];
+    const navItems = ['Home', 'About', 'Contact'];
     const [selectedNav, setSelectedNav] = useState(0);
 
     return (

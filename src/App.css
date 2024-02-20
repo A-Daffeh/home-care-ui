@@ -1,6 +1,6 @@
 .navActive {
     font-weight: bold;
-    background-color: orange;
+    background-color: rgba(158, 158, 240, 0.684);
     border-radius: 10px;
     padding: 0 8px;
 }
